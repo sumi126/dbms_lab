@@ -1,3 +1,4 @@
+use pubs;
 SELECT * FROM authors;
 SELECT * FROM titleauthor;
 SELECT * FROM titles;
