@@ -17,6 +17,3 @@ INSERT INTO [dbo].[Item]
 	;
 GO
 EXEC sp_columns Item;
-
-
-

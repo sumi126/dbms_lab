@@ -14,3 +14,5 @@ BEGIN
     ORDER BY 
         item_category;                                      -- Optionally, order by category or any other field
 END;
+
+EXEC ShowCategoryStats Electrical, 566.4
