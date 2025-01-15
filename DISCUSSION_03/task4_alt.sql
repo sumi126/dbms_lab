@@ -38,5 +38,5 @@ BEGIN
     WHERE item_category = @item_categoryName
 END;
 
-EXEC Updateitem_priceAndShowItem_alt 'Electrical' , 3000;
---DROP PROC Updateitem_priceAndShowItem;
+EXEC Updateitem_priceAndShowItem_alt 'Electrical' , 1000;
+DROP PROC Updateitem_priceAndShowItem_alt;

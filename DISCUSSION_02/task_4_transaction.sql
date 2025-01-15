@@ -6,5 +6,7 @@ create table Transactions
 	cust_id char(7) foreign key  references CustomerAndSuppliers(cust_id),
 	tran_type char(1) check(tran_type like '[SO]'),
 	tran_quantity int check(tran_quantity >=0),
-	tran_date SMALLDATETIME  
+	Tran_Date SMALLDATETIME DEFAULT GETDATE()
 )
+
+-- DROP Table Transactions
